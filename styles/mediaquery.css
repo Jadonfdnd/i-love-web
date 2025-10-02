@@ -1,0 +1,11 @@
+body {
+    background: pink;
+
+    @media (width > 30em){
+        background: blue;
+    }
+
+    @media (width > 200em){
+        background: purple;
+    }
+}
